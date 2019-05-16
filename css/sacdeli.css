@@ -1,0 +1,17 @@
+
+.div{
+    max-width: 1000px;
+    background-color: red;
+}
+.div1{
+    max-width: 700px;
+    background-color: red;
+}
+.div2{
+    max-width: 500px;
+    background-color: red;
+}
+.div3{
+    max-width: 300px;
+    background-color: red;
+}

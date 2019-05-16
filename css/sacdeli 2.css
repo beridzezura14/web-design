@@ -1,0 +1,203 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/* Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 38px;
+    background: chocolate;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 2px;
+}
+
+/*this is header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float:left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight {
+    color: chocolate;
+    font-weight: bold;
+}
+header .current a{
+    color: chocolate;
+    font-weight: bold;   
+}
+header a:hover{
+    color:#cccccc;
+}
+
+/* this is showcase*/
+
+#showcase {
+    min-height: 400px;
+    background: url('../img/1111.jpg');
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#showcase p {
+    font-size: 20px;
+}
+
+/* nawslatter */
+#newslater{
+    padding: 15px;
+    color: #ffffff;
+    background-color: #35424a;
+}
+#newslater h1{
+    float: left;
+}
+#newslater form{
+    float: right;
+    margin-top: 23px;
+}
+#newslater input[type="email" ]{
+    padding: 4px;
+    height:25px;
+    width: 250px;
+}
+
+/* boxes */
+
+#boxes {
+    margin-top: 20px;
+
+}
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;  
+    text-align: center;
+}
+#boxes .box img{
+    width: 90px;
+}
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+   header #branding,
+   header nav,
+   header nav li,
+   #newslater h1,
+   #newslater form,
+   #boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+   } 
+   header {
+    padding-bottom: 20px;
+
+   }
+   #sowcases {
+        margin-top: 40px;
+
+   }
+   #newslater button {
+    display: block;
+    width:100%;
+   }
+}
+
+#newslater form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
